@@ -8,17 +8,18 @@
 }
 
 .accordion-item {
-    border: 1px solid rgba(35, 65, 100, .15);
+    border: 1px solid rgba(224, 114, 215, 0.15);
 }
 
 .accordion-button:not(.collapsed) {
     color: inherit;
-    background-color: rgb(35, 65, 100);
-    color: #e8e8e8;
+    background-color: rgb(52, 80, 172);
+    color:#F0F8FF;
 }
 
 .accordion-button:not(.collapsed)::after {
     filter: brightness(0%) invert(70%);
+    color:#FF8C00;
 }
 
 .accordion-button:focus {
